@@ -42,3 +42,27 @@ console.log(typeof(heros))
 console.log(typeof(myfunction))
 console.log(typeof(obj))
 console.log(typeof(Symbol))
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack mameory(Primitive datatype)----does not change original value
+//heap memeory(non-primitive datatype)----change oirginal value
+
+let myname="hello World"
+let anothername=myname;
+anothername="chai";
+console.log(myname);
+console.log(anothername)
+
+let userOne={
+    email:"user@gmail.com",
+    upiid:"use123"
+}
+let userTwo=userOne;
+userTwo.email="hh@gmail.com";
+
+console.log(userOne.email);
+
+console.log(userTwo.email);
